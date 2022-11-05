@@ -16,7 +16,12 @@ public class SortList {
     Collections.sort(list);
     System.out.println(list);
 
-    ArrayList<String> str=new ArrayList<>();
+        //Shuffle
+        Collections.shuffle(list);
+        System.out.println(list);
+
+
+        ArrayList<String> str=new ArrayList<>();
         str.add("Kokadwar");
         str.add("VIT");
       str.add("Akshay");
@@ -27,6 +32,10 @@ public class SortList {
         //Sort
         Collections.sort(str);
         System.out.println(str);
+
+        //Shuffle
+        Collections.shuffle(str);
+        System.out.print(str);
 
 
 }
